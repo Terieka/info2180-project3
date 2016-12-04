@@ -1,14 +1,18 @@
 <!DOCTYPE.html>
 <head>
-    
+    <script type="text/javascript" src="cheapomail.js"></script>
 </head>
 <body>
-    <form>
+    <form method="POST" action="cheapomail.php">
         <img src="http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-2/256/new-message-icon.png" id="pic" ></img>
+        
         <label><b>Username</b></label>
         <input type="text" placeholder ="Enter Username" id="username" required>
+        <br>
         <label><b> Password </b></label>
         <input type="password" placeholder="Enter password" id="password" required>
-        <button type="submit">Login</button>
+        <br>
+        <button type="submit" id="login">Login</button>
     </form>
+    <div> id= "info" </div>
 </body>
