@@ -1,0 +1,44 @@
+#loginform{
+    border : 3px solid #f1f1f1;
+    padding:16px;
+}
+#username, #password{
+    width:30%;
+    padding: 12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border:1px solid #ccc;
+   
+}
+#pic{
+    
+     text-align: center;
+     
+}
+#login{
+    background-color: #4caf50;
+    color:white;
+    padding: 12px 20px;
+    margin:8px 0;
+    border:none;
+    cursor:pointer;
+    width:40%;
+}
+#nbar ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: #ffbf00;
+    
+}
+#nbar li{
+    float:left;
+}
+#nbar li a {
+    display:block;
+    color:black;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+}

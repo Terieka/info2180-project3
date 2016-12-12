@@ -1,6 +1,7 @@
+/* global $ */
 window.onload==function(){
     $("#login").on('click',function(){
-        $("#info").load("homepage.html");
+        document.location.href="https://info2180-project3-terieka20.c9users.io/adduser.html";
     });
     
 };
